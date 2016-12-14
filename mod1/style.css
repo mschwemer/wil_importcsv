@@ -1,0 +1,18 @@
+table {
+	width: 100%;
+}
+table.associate_table {
+	font-size: 10px;
+	text-align:left;
+}
+td {
+	height: 22px;
+	padding: 2px;
+	vertical-align: middle;
+}
+.unequal {
+	background: #dedede;
+}
+.navigation_row td {
+	padding-top: 20px;
+}

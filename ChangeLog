@@ -1,0 +1,48 @@
+15-20-02 Oliver Weiﬂ <weiss@carraldo.de>
+1.0.0:	Ready for Typo3 6.2.x
+
+11-09-11 Oliver Weiﬂ <weiss@carraldo.de>
+0.4.4:	bugfix: charset problem;
+	bugfix: mulitline fields;
+	uniqueField Feature added;
+	french and spanish translation added
+
+11-05-22 Oliver Weiﬂ <weiss@carraldo.de>
+0.4.4:	Some security fixes. Uploadfolder not requested any more, files are stored in typo3temp and deleted afterwards
+	Bugfix: Error occured, when only one table was allowed
+
+10-29-10 Oliver Weiﬂ <weiss@carraldo.de>
+0.4.2:	Some security fixes;
+	Ready for Typo3 4.4.x
+
+10-09-10 Oliver Weiﬂ  <weiss@carraldo.de>
+0.4.1:	Bugfix: assignment of foreign tables caused database error (Thanks to Ulrich Fischer (http://www.sunfish.de) )
+
+09-12-30 Oliver Weiﬂ  <weiss@carraldo.de>
+0.4.0:	page TSConfig setting TCEFFORM.[table].[field].disabled is provided (Thanks to Lina Ourima)
+	charsets in backend and in file can now be different (Thanks to Lina Ourima for input)
+	locallang.xml instead of .php (Thanks to Sebastian Mendel)
+	locallang in utf-8 (Thanks to Sebastian Mendel)
+	skip table selection, if there is only one (Thanks to Sebastian Mendel)
+	possibility to clear the whole table before import (Thanks to Sebastian Mendel)
+	improved error output (Thanks to Sebastian Mendel)
+
+08-06-29 Oliver Weiﬂ  <weiss@carraldo.de>
+0.3.2: Datetime Field added.
+	Bugfix: uid field can now be somewhere in the csv file and doesn't need to be in the first column
+
+0.3.1:	Some Bugfixes
+0.3.0: Added option to overwrite rows (updating) instead of adding
+0.2.1:	Bug: If type was standard, type could not be fetched
+0.2.0:	Features added: Multiple fields, Reference fields
+0.1.2:	bug fixings
+0.1.1: Changed configuration from conf.php to TSConfig,
+	fixed a bug with LoadTCA
+0.1.0: Documentation added,
+	more security features added
+
+06-10-15 Oliver Weiﬂ  <weiss@carraldo.de>
+0.0.1:
+	* initial release
+
+
