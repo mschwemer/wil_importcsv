@@ -1,18 +1,24 @@
-table {
+
+
+body.tx-wil_importcsv {
+	margin: 20px;
+}
+body.tx-wil_importcsv table {
 	width: 100%;
 }
-table.associate_table {
+body.tx-wil_importcsv table.associate_table {
 	font-size: 10px;
 	text-align:left;
 }
-td {
+
+body.tx-wil_importcsv td {
 	height: 22px;
 	padding: 2px;
 	vertical-align: middle;
 }
-.unequal {
+body.tx-wil_importcsv .unequal {
 	background: #dedede;
 }
-.navigation_row td {
+body.tx-wil_importcsv .navigation_row td {
 	padding-top: 20px;
 }
