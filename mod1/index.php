@@ -1191,10 +1191,9 @@ if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/wil_imp
 $SOBE = GeneralUtility::makeInstance('tx_wilimportcsv_module1');
 $SOBE->init();
 
-// Include files?
-foreach ($SOBE->include_once as $INC_FILE) {
-    include_once($INC_FILE);
-}
+// Check for submodules
+
+$SOBE->checkExtObj();
 
 $SOBE->main();
 $SOBE->printContent();
